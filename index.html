@@ -36,7 +36,7 @@
     <!-- home starts here  -->
     <div id="home" class="home">
         <div class="left-section">
-            <p id="typed-text">Web Devloper , AI ML Enthusiast</p>
+            <p id="typed-text">Web Developer</p>
             <h3>Hi,I am Anurag</h3>
             <h3>From INDIA</h3>
         </div>
@@ -80,11 +80,11 @@
         <div class="left-container">
             <h1 id="contact">Contact</h1>
             <ul>
-                <li class="contact-info">
+                <li  style="color: rgb(67, 154, 183); font-size: 18px;" class="contact-info">
                     <i class="fa fa-envelope"></i> singhanurag1309@gmail.com
                 </li>
-                <li class="contact-info">
-                    <i class="fa fa-phone"></i> +91 9719877462
+                <li  style="color: rgb(67, 154, 183); font-size: 15px;" class="contact-info">
+                    <i" class="fa fa-phone"></i> +91 9719877462
                 </li>
                 <li class="contact-info">
                     <a href="https://github.com/Anurag-singh-thakur" target="_blank" title="Go to my GitHub profile">
@@ -144,15 +144,16 @@
         <h2>Let's Connect <i class="fa fa-user-plus"></i></h2>
         <form id="loginform" action="https://api.web3forms.com/submit" method="POST">
             <div class="form-group">
-                <input type="hidden" name="access_key" value="3959e0cd-bd44-41d0-b288-3184c131ec50" />
+                 <input type="hidden" name="access_key" value="3959e0cd-bd44-41d0-b288-3184c131ec50" /> 
                 <label for="name">Name</label>
-                <input type="text" autocomplete="off" id="name" name="name" class="input" placeholder="Username" required />
-                <label for="email">Email</label>
-                <input type="email" autocomplete="off" id="email" name="email" class="input" placeholder="Email" required />
-                <label for="contact-number">Contact Number</label>
-                <input type="tel" autocomplete="off" id="contact-number" name="contact-number" class="input" placeholder="Contact Number" required />
+                <input placeholder="Name Here..." class="input" name="text" type="text">
+                <label for="name">Email</label>
+                <input placeholder="Email Here..." class="input" name="text" type="email">
+                <label for="name">Contact Number</label>
+                <input placeholder="Contact Number Here..." class="input" name="text" type="phone">
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required placeholder="Enter your message..."></textarea>
+                <textarea id="message" name="message" rows="5" required placeholder="Type Something Intelligent..."></textarea>
+                
             </div>
 
             <button class="button">
